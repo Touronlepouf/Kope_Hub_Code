@@ -1,0 +1,47 @@
+:root {
+  --bgColor: #c8d6a2;
+  --divNiv1Color: #94a84b;
+  --divNiv2Color: #5d7052;
+  --divArticlesColor: #1b9476;
+  --divArticle1Color: #226d68;
+  --divArticle2Color: #18534f;
+  --txtColor: #dcdfda;
+}
+
+body {
+  background-color: var(--bgColor);
+}
+
+.titre {
+  display: flex;
+}
+
+#titre-h1 {
+  flex-grow: 1 ;
+  display: flex;
+  justify-content: center;
+  background-color: var(--divNiv1Color);
+  border-radius: 10px;
+  color: var(--txtColor);
+  font-familly: "Courier New", Courier, monospace;
+}
+
+.note {
+ dispaly: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: var(--divNiv1Color);
+ height: 23px;
+ width: 115px;
+ border-radius: 10px;
+ color: var(--txtColor);
+}
+
+.info-img {
+  display: flex;
+  background-color: var(--divNiv1Color);
+  border-radius: 60px;
+}
+.information {
+  background-color: var(--divNiv2Color)
+}
