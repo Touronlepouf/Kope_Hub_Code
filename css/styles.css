@@ -70,27 +70,30 @@
   display: flex;
 }
 .scrollBar {
-  padding: 12px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 30%;
+  left: 93%;
+}
+.all-things {
+}
+#btn-filtre {
+  background-color: var(--divNiv2Color);
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 10px;
-  border-radius: 10px;
-  width: fit-content;
-  height: 1000px;
-  background-color: var(--divNiv1Color);
-  height: auto;
+  border: none;
+  cursor: pointer;
+}
+#img--filtre {
+  height: 50%;
+  width: 60%;
 }
 .btn-scrollBar {
-  flex-wrap: 1;
-  max-height: fit-content;
-  margin: 2px;
-  border: 0px;
-  border-radius: 5px;
-  background-color: var(--divNiv2Color);
-  color: var(--txtColor);
-  font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
 }
 .articles {
   flex-grow: 1;
@@ -110,6 +113,7 @@
   font-family: "Courier New", Courier, monospace;
   background-color: var(--divArticle1Color);
   border-radius: 10px;
+  font-size: 25px;
 }
 .img-article {
   min-width: 250px;
@@ -128,6 +132,7 @@ img {
   flex-grow: 1;
   margin: 10px;
   max-height: 250px;
+  font-size: clamp(10px, 1.5vw, 30px);
 }
 .btn-article {
   margin: 10px;
@@ -139,4 +144,5 @@ img {
   color: #ffffff;
   font-weight: bold;
   border: 0px;
+  font-size: clamp(20px, 2vw, 40px);
 }
