@@ -31,9 +31,18 @@
       <!--en teyte-->
       <div class="scrollBar">
         <div class="all-things">
-          <button id="btn-filtre">
-            <img src="../images/filtrer.png" id="img--filtre" />
+          <button id="toggleFiltersBtn">
+            <img src="../images/filtrer.png" id="img-filtre" />
           </button>
+          <div id="filtersContainer">
+            <button class="filtre">meilleur du mois</button>
+            <button class="filtre">meilleure note</button>
+            <button class="filtre">moins cher</button>
+            <button class="filtre">plus cher</button>
+            <button class="filtre" id="closeFiltersBtn">
+              <img src="../images/defiltrer.png" id="img-filtre" />
+            </button>
+          </div>
         </div>
       </div>
       <div class="cP">
@@ -122,5 +131,6 @@
       <!--cP-->
     </div>
     <!--container-->
+    <script src="../javascript/script.js"></script>
   </body>
 </html>

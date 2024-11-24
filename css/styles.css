@@ -7,7 +7,9 @@
   --divArticle2Color: #18534f;
   --txtColor: #dcdfda;
 }
-
+body {
+  background-color: var(--bgColor);
+}
 .container {
   min-width: fit-content;
   height: fit-content;
@@ -74,11 +76,11 @@
   width: 50px;
   position: absolute;
   top: 30%;
-  left: 93%;
+  left: 92%;
 }
 .all-things {
 }
-#btn-filtre {
+#toggleFiltersBtn {
   background-color: var(--divNiv2Color);
   border-radius: 50%;
   height: 100%;
@@ -89,11 +91,40 @@
   border: none;
   cursor: pointer;
 }
-#img--filtre {
-  height: 50%;
-  width: 60%;
+#img-filtre {
+  border: 10px solid transparent;
+  height: 65%;
+  width: 65%;
 }
-.btn-scrollBar {
+#filtersContainer {
+  display: none;
+}
+#filtersContainer.active {
+  display: block;
+}
+.filtre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--divNiv2Color);
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: var(--txtColor);
+  border: none;
+  cursor: pointer;
+}
+#closeFiltersBtn {
+  background-color: var(--divNiv2Color);
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
 }
 .articles {
   flex-grow: 1;
@@ -145,4 +176,5 @@ img {
   font-weight: bold;
   border: 0px;
   font-size: clamp(20px, 2vw, 40px);
+  cursor: pointer;
 }
