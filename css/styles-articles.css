@@ -55,6 +55,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: large;
   height: 525px;
+  font-size: clamp(12px, 1.7vw, 32px);
 }
 button {
   background-color: var(--divArticlesColor);
@@ -64,6 +65,7 @@ button {
   border: none;
   font-family: "Courier New", Courier, monospace;
   font-size: medium;
+  font-size: clamp(12px, 1.7vw, 32px);
 }
 img {
   height: 525px;
