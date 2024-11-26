@@ -55,7 +55,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: large;
   height: 525px;
-  font-size: clamp(7px, 1.25vw, 25px);
+  font-size: clamp(10px, 1.7vw, 30px);
 }
 button {
   background-color: var(--divArticlesColor);
