@@ -151,11 +151,15 @@ body {
   height: 250px;
   margin: 10px;
   background-color: var(--divArticle2Color);
-  border-radius: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 img {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 92%;
+  max-height: 92%;
+  border-radius: 15px;
 }
 .txt-article {
   flex-grow: 1;
