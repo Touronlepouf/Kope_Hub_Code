@@ -57,6 +57,19 @@ body {
   height: 525px;
   font-size: clamp(10px, 1.25vw, 25px);
 }
+.information-commingSoon {
+  background-color: var(--divNiv2Color);
+  border-radius: 50px;
+  color: var(--txtColor);
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  height: 525px;
+  font-size: clamp(10px, 1.25vw, 25px);
+  width: 2000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 button {
   background-color: var(--divArticlesColor);
   border-radius: 10px;
