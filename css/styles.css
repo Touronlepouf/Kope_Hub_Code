@@ -160,6 +160,12 @@ img {
   max-width: 92%;
   max-height: 92%;
   border-radius: 15px;
+  transition: 0.5s;
+}
+img:hover {
+  max-width: 89%;
+  max-height: 89%;
+  transition: 0.5s;
 }
 .txt-article {
   flex-grow: 1;
@@ -179,4 +185,9 @@ img {
   border: 0px;
   font-size: clamp(20px, 2vw, 40px);
   cursor: pointer;
+  transition: 0.5s;
+}
+.btn-article:hover {
+    box-shadow: 0 0 30px var(--divArticle2Color);
+    transition: 0.5s;
 }
