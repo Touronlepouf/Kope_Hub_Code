@@ -1,0 +1,66 @@
+:root {
+  --bgColor: #c8d6a2;
+  --divNiv1Color: #94a84b;
+  --divNiv2Color: #5d7052;
+  --divArticlesColor: #1b9476;
+  --divArticle1Color: #226d68;
+  --divArticle2Color: #18534f;
+  --txtColor: #dcdfda;
+}
+body {
+  background-color: var(--bgColor);
+}
+.container {
+  min-width: fit-content;
+  height: fit-content;
+  background-color: var(--bgColor);
+}
+.titre {
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  color: var(--txtColor);
+  background-color: var(--divNiv2Color);
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+.img {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid transparent;
+  background-color: var(--divNiv2Color);
+  border-radius: 10px;
+  margin: 10px;
+}
+.btn {
+  color: var(--txtColor);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: max-content;
+  max-height: min-content;
+  flex-grow: 1;
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: var(--divArticle1Color);
+  border-radius: 10px;
+  font-size: 25px;
+}
+#oui {
+  margin: 10px;
+  padding: 5px;
+  background-color: var(--divArticle2Color);
+  border-radius: 10px 7px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 0px;
+  font-size: clamp(20px, 2vw, 40px);
+  cursor: pointer;
+}
