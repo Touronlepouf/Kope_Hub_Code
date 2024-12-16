@@ -26,6 +26,7 @@ body {
   border-radius: 10px;
   margin: 10px;
   font-size: 20px;
+  font-size: clamp(10px, 1.5vw, 30px);
 }
 .img {
   padding: 10px;
