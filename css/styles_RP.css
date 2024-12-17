@@ -41,8 +41,8 @@ body {
   width: clamp(4px, 1.5vw, 35px);
 }
 img {
-  height: clamp(4px, 1.5vw, 35px);
-  width: clamp(4px, 1.5vw, 35px);
+  height: clamp(4px, 40vw, 800px);
+  width: clamp(4px, 40vw, 800px);
 }
 .btn {
   color: var(--txtColor);
