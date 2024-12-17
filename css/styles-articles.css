@@ -7,7 +7,6 @@
   --divArticle2Color: #18534f;
   --txtColor: #dcdfda;
 }
-
 body {
   background-color: var(--bgColor);
 }
