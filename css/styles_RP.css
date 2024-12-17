@@ -37,6 +37,8 @@ body {
   background-color: var(--divNiv2Color);
   border-radius: 10px;
   margin: 10px;
+  height: clamp(4px, 1.5vw, 35px);
+  width: clamp(4px, 1.5vw, 35px);
 }
 .btn {
   color: var(--txtColor);
