@@ -48,6 +48,7 @@ body {
   padding: 15px;
 }
 .information {
+  margin : 5px;
   background-color: var(--divNiv2Color);
   border-radius: 0px 50px 50px 0px;
   color: var(--txtColor);
