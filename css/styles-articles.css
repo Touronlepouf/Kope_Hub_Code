@@ -81,6 +81,6 @@ button {
   font-size: clamp(12px, 1.7vw, 32px);
 }
 img {
-  height: 525px;
+  height: 500px;
   border-radius: 50px 50px 50px 50px;
 }
