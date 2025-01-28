@@ -50,7 +50,7 @@ body {
 .information {
   margin : 5px;
   background-color: var(--divNiv2Color);
-  border-radius: 0px 50px 50px 0px;
+  border-radius: 50px 50px 50px 50px;
   color: var(--txtColor);
   font-family: "Courier New", Courier, monospace;
   font-size: large;
