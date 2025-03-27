@@ -9,14 +9,14 @@ div {
 .trait
 {
 position: absolute;
-
+left:300px;
 height:785px;
 width:0px;
 border:1.25px solid black;
 }
 .lign
 {
-width:785px; 
+width:1275px; 
 border:1.25px solid black
 }
 
