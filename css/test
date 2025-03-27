@@ -5,7 +5,12 @@ div {
   justify-content: left;
   border-radius: 10px;
   font-family: "Miriam Libre", Courier, monospace;
-border: 3px solid
+}
+.trait
+{
+height:785px;
+width:0px;
+border:1.25px solid black;
 }
 
 
@@ -13,5 +18,8 @@ border: 3px solid
 
 
 <div>
-  <h1>test</h1>
+  <h1>Kopehub</h1>
 </div>
+<div class="trait">
+</div>
+
