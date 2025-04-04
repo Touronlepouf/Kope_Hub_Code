@@ -22,6 +22,16 @@ top: 125px;
 width:1275px; 
 border:1.25px solid black
 }
+.info-img {
+display: flex;
+  height: 210px;
+  width:900px;
+  border-radius: 60px;
+  border: solid;
+  margin-top: 3.0vw;
+  margin-left: 23vw;
+  padding: 15px;
+}
 img{
  width: 50px; 
  height: 50px;
@@ -40,4 +50,6 @@ img{
 </div>
 <div class="lign">
 </div>
+<div class="info-img">
 <img src="https://webdi.fr/img/couleurs/d473d4.png" />
+</div>
