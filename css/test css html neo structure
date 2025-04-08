@@ -1,0 +1,47 @@
+
+body{
+  display: flex;
+  height: 100000px;
+}
+.container {
+  flex-grow: 2;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+#top{
+  display: flex;
+  height: 100px;
+}
+#bottom{
+  flex-grow: 2;
+  display: flex;
+  flex: 2;
+}
+#top-left{
+  font-size: 60px;
+  width: 250px;
+  height: 100px;
+  border: solid;
+  border-width: 0px 2px 2px 0px;
+}
+#top-right{
+  flex-grow: 2;
+  font-size: 40px;
+  height: 100px;
+  border: solid;
+  border-width: 0px 0px 2px 2px;
+}
+#bottom-left{
+  font-size: 60px;
+  width: 250px;
+  border: solid;
+  border-width: 4px 0px 0px 4px;
+}
+#bottom-right{
+  flex-grow: 2;
+  font-size: 40px;
+  flex-grow: 1;
+  border: solid;
+  border-width: 4px 4px 0px 0px;
+}
