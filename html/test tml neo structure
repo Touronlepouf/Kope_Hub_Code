@@ -1,0 +1,17 @@
+<body>
+  <div class="container">
+    <div id="top">
+      <div id="top-left">Kopehub</div>
+      <div id="top-right">
+        salons de thais a toulouse
+      </div>
+    </div>
+    <div id="bottom">
+      <div id="bottom-left">qq chose</div>
+      <div id="bottom-right">
+        salon 1 <br>
+        salon 2
+      </div>
+    </div>
+ </div>
+</body>
