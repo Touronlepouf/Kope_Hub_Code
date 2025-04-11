@@ -8,15 +8,14 @@ div {
   font-family: "Miriam Libre", Courier, monospace;
 }
 .container{
-  border: solid;
   height: 31vw;
   width: 98vw;
   flex-gorw: 2;
 }
 .title{
   border: solid;
-  height: 8.5vw;
-  width: 31.5vw;
+  height: 8.8vw;
+  width: 32.4vw;
   font-size: 2.6vw;
   font-weight: bold;
   text-align: center;
@@ -38,18 +37,18 @@ div {
 }
 .info-img {
   height: 19vw;
-  width: 70vw;
+  width: 60vw;
   border: solid;
-  margin-top: 9vw;
+  margin-top: 10vw;
   margin-left: 23.5vw;
+  margin-right: 10vw;
   padding: 15px;
 }
 img{
- width: 50px; 
- height: 50px;
+ width:70vw; 
+ height: 19vw;
  border-radius: 10px;
 }
-
 
 <body>
   <div class="container">
